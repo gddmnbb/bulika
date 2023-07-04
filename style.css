@@ -1,0 +1,303 @@
+@import url(https://storage.nix13.pw/Gilroy/stylesheet.css);
+
+@font-face {
+    font-family: "Chronicle Display";
+    src: url("./chronicle-display/Chronicle Display Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Chronicle Display";
+    src: url("./chronicle-display/Chronicle Display Semibold.otf") format("opentype");
+    font-weight: 600;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.promo {
+    height: 1900px;
+}
+
+.background {
+    position: relative;
+    height: 700px;
+}
+
+.background-image {
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.hg {
+    height: 1513px;
+    top: -400px;
+    background: url("./img/HG.png");
+}
+
+.mg {
+    height: 1422px;
+    top: 452px;
+    background: url("./img/MG.png");
+}
+
+.vg {
+    height: 745px;
+    top: 1155px;
+    background: url("./img/VG.png");
+}
+
+.background-hero {
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    background: linear-gradient(347deg, rgba(11, 29, 38, 0.00) 0%, rgba(11, 29, 38, 0.00) 50%, #0B1D26 100%);
+}
+.bg-content {
+    top: 1200px;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0.00) 0%, #0B1D26 72.28%);
+}
+
+.promo-content {
+    width: calc(100% - 160px);
+    z-index: 1000;
+    position: absolute;
+    top: 64px;
+    left: 80px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.logo {
+    font-family: 'Chronicle Display', sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+.links {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    box-sizing: border-box;
+}
+.links-link {
+
+}
+
+.links-link:not(:last-child) {
+    margin-right: 40px;
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.account-image {
+    margin-right: 8px;
+}
+.account-text {
+    font-size: 17px;
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+}
+
+/* Join */
+.join {
+    display: flex;
+    flex-direction: column;
+    margin-top: 270px;
+}
+.join > .text {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    color: white;
+    /*transform: rotate(90deg) translate(50%);*/
+    width: fit-content;
+    writing-mode:vertical-rl;
+}
+.join > .join-image {
+    width: 24px;
+    height: 24px;
+}
+.join > *:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    margin: 198px auto auto;
+}
+.center-text>.guide {
+    text-transform: uppercase;
+    color: #FBD784;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 6px;
+}
+.center-text>.text {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Chronicle Display", sans-serif;
+    font-weight: 600;
+    font-size: 88px;
+    color: white;
+    text-transform: capitalize;
+}
+.center-text>.scroll {
+    display: flex;
+}
+
+.slider {
+    margin-top: 237px;
+    display: flex;
+    flex-direction: row;
+}
+.slider-text {
+    margin-top: 16px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+}
+.slider-text>span:not(:last-child) {
+    margin-bottom: 40px;
+}
+.slider-bar{
+    width: 3px;
+    height: 240px;
+    background: #fff9;
+}
+.slider-bar-inner {
+    width: 3px;
+    height: 25%;
+    background: #fff;
+}
+
+/* Body */
+.body-content {
+    background: #0B1D26;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: -250px auto 0;
+}
+
+/* Card */
+.content-card {
+    width: 1462px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10000;
+    margin: 0 auto 200px;
+}
+.card-num {
+    position: absolute;
+    font-size: 240px;
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    top: -137px;
+    left: -90px;
+    color: #FFFFFF;
+    opacity: .1;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+.card-text {
+    margin-right: 114px;
+    z-index: 100;
+    position: relative;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 6px;
+    color: #FBD784;
+    height: 22px;
+}
+.card-line {
+    background: #FBD784;
+    width: 72px;
+    height: 2px;
+    margin-right: 16px;
+}
+.card-piska {
+    font-family: "Chronicle Display", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    width: 555px;
+    color: white;
+}
+.card-xueta {
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    width: 632px;
+    margin: 27px 0;
+}
+.card-more {
+    color: #FBD784;
+    font-size: 18px;
+    font-family: Gilroy, sans-serif;
+}
+
+/* Footer */
+.footer {
+    margin: 0 229px;
+    display: flex;
+    padding-bottom: 120px;
+}
+.footer-text {
+    color: white;
+    width: 303px;
+    margin: 24px 0 122px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer-copy {
+    opacity: .5;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-links {
+    font-family: Gilroy, sans-serif;
+}
+.footer-links-title {
+    color: #FBD784;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.footer-links-link {
+    color: white;
+}
+.footer-links-link:not(:last-child) {
+    margin-bottom: 16px;
+}
